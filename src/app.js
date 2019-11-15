@@ -13,7 +13,7 @@ import 'react-dates/lib/css/_datepicker.css';
 
 // import redux store
 import configureStore from './store/configureStore.js';
-
+  
 // import actions and selectors
 import { addExpense} from './actions/expenses.js';
 import getVisibleExpenses from './selectors/expenses.js';
