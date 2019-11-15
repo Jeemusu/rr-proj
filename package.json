@@ -4,7 +4,8 @@
     "build:prod": "webpack -p --env production",
     "build:dev": "webpack",
     "dev-server": "webpack-dev-server",
-    "test": "jest --config=jest.config.json"
+    "test": "jest --config=jest.config.json",
+    "start": "node server/server.js"
   },
   "dependencies": {
     "@babel/core": "^7.6.4",
@@ -19,6 +20,7 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "enzyme-to-json": "^3.4.3",
+    "express": "^4.17.1",
     "extract-text-webpack-plugin": "next",
     "jest": "^24.9.0",
     "live-server": "^1.2.1",
